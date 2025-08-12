@@ -10,8 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
   <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-
-
+  <link rel="icon" type="image/x-icon" href="logo.ico">
 
 </head>
 
@@ -26,7 +25,8 @@
     window.$docsify = {
       name: 'popmenu',
       repo: '',
-      loadSidebar: true
+      loadSidebar: true,
+      logo: './logo.ico'
     }
 
     const gitalk = new Gitalk({
@@ -36,7 +36,8 @@
       owner: 'kingwrcy',
       admin: ['kingwrcy'],
       proxy: 'https://proxy-gitalk-api.netlify.app/github_access_token',
-      id: location.pathname,      // Ensure uniqueness and length less than 50
+      title: `Document comment ${location.hash.match(/#(.*?)([?]|$)/)[1]}`,
+      id: location.hash.match(/#(.*?)([?]|$)/)[1],  // 存放评论的仓库
       distractionFreeMode: false  // Facebook-like distraction free mode
     })
 
@@ -48,6 +49,12 @@
       }, 2000)
 
     })
+
+    window.onhashchange = function (event) {
+      if (event.newURL.split('?')[0] !== event.oldURL.split('?')[0]) {
+        location.reload()
+      }
+    }
 
 
   </script>
