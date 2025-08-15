@@ -19,11 +19,11 @@
 
 - 支持开启/关闭缩放功能,可以自由放大/缩小浮窗.
 - 支持嵌入任意在线网页.
-- 下载地址 [123 盘](https://www.123865.com/s/sDuBTd-7rGs3)
+- 下载地址 [123 盘](https://www.123865.com/s/sDuBTd-HKGs3)
 
 ---
 
 ### 2025.08.15 v0.3
 
 - **支持社区共建** v0.3 开始支持 [来这里贡献你的浮窗](https://github.com/kingwrcy/popmenu-commuity)
-- 下载地址 [123 盘](https://www.123865.com/s/sDuBTd-7rGs3)
+- 下载地址 [123 盘](https://www.123865.com/s/sDuBTd-HKGs3)

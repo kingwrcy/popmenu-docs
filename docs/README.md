@@ -28,6 +28,6 @@ PopMenu 是一款专为 Windows 用户打造的极简桌面浮窗工具。你可
 
 ## 下载体验
 
-> [点击下载 PopMenu（123 盘）](https://www.123865.com/s/sDuBTd-GDGs3)
+> [点击下载 PopMenu（123 盘）](https://www.123865.com/s/sDuBTd-HKGs3)
 
 ---
